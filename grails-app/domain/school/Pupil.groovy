@@ -6,6 +6,10 @@ class Pupil extends User {
     Parent father // отец
     Parent mother // мать
 
+    String toString() {
+        "$surname $name"
+    }
+
     // отношение one-to-many говорит о том, что у студента может быть множество оценок
     static hasMany = [ marks : Mark ]
 

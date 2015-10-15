@@ -4,6 +4,10 @@ class Parent extends User {
 
     String workplace //место работы
 
+    String toString() {
+        "$surname $name"
+    }
+
     // отношение one-to-many говорит о том, что у родителя может быть множество детей
     static hasMany = [ pupils : Pupil ]
 

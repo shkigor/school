@@ -10,6 +10,10 @@ class Classroom {
     // отношение one-to-many говорит о том, что у группы может быть множество изучаемых предметов
     static hasMany2 = [ subjects : Subject ]
 
+    String toString() {
+        "$letter$number"
+    }
+
     static constraints = {
     }
 }

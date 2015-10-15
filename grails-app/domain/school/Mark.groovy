@@ -7,6 +7,10 @@ class Mark {
     Integer mark
     Date date = new Date(); //дата проставления оценки
 
+    String toString() {
+        "$subject, $pupil, $mark, $date"
+    }
+
     static constraints = {
     }
 }

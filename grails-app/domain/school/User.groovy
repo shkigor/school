@@ -9,7 +9,13 @@ class User {
     String sex //пол
     String address // адрес
     String phone  // телефон
+    String role
+
+    String toString() {
+        "$surname $name"
+    }
 
     static constraints = {
+        role inList: ["Admin", "Teacher", "Parent", "Pupil"]
     }
 }

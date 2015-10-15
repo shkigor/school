@@ -4,7 +4,7 @@ dataSource {
     // driverClassName = "org.h2.Driver"
     driverClassName = "com.mysql.jdbc.Driver"
     username = "root"
-    password = "miramax"
+    password = "mysql"
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -21,7 +21,7 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             // url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://localhost:3306/school"
+            url = "jdbc:mysql://localhost:3306/school?useUnicode=true&characterEncoding=utf8"
         }
     }
     test {

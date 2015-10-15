@@ -1,0 +1,45 @@
+html * {
+    margin: 0;
+    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+	vertical-align: middle;
+}
+#login_div{
+	background-color: #FFFFFF;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+form{
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+}
+form p
+{
+font-family: Arial;
+	font-size: 18px;
+	color: #000000;
+}
+form input{
+	font-family: Arial;
+	font-size: 20px;
+	color: #000000;
+}
+.noborder{
+	border: 0px;
+	background-color: #FFFFFF;
+}
+#pass_div{
+	background-color: #FFFFFF;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+table.login {
+	background-color: #6495ed;
+}
+#main{
+	margin: 5px 5px 5px 5px;
+	background-color: #6495ed;
+	padding: 20px 20px 20px 20px;
+	vertical-align: top;
+	}
+
